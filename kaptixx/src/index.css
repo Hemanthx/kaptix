@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #6366f1;
+}
+
+/* This replaces the @apply body rule */
+@layer base {
+  body {
+    background-color: #0a0a0a;
+    color: #f3f4f6; /* Equivalent to gray-100 */
+    margin: 0;
+    font-family: sans-serif;
+  }
+
+  /* Removes the default calendar icon so we can use the Lucide one */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background: transparent;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+  }
+}
