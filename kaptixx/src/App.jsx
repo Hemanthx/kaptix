@@ -6,16 +6,13 @@ import { fetchSchedule, fetchShowDetails } from './api';
 
 const queryClient = new QueryClient();
 
-// --- Main Schedule Screen ---
 const ScheduleGrid = () => {
   const [selectedDate, setSelectedDate] = React.useState(
     new Date().toISOString().split('T')[0]
   );
 
   const { data, isLoading } = useQuery({ 
-    // This Key MUST change when selectedDate changes
     queryKey: ['schedule', selectedDate], 
-    // This MUST pass the selectedDate to the function
     queryFn: () => fetchSchedule(selectedDate) 
   });
 
@@ -65,7 +62,6 @@ const ScheduleGrid = () => {
   );
 };
 
-// --- Detail Screen ---
 const DetailView = () => {
   const { id } = useParams();
   const navigate = useNavigate();
