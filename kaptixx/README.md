@@ -1,16 +1,18 @@
-# React + Vite
+<img width="1812" height="1004" alt="image" src="https://github.com/user-attachments/assets/3b7248a9-b49e-4aa4-81df-6daa5bbd376c" />
+Problem statement:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+We would like you to design a web application that uses the TVmaze API (http://www.tvmaze.com/api) to display a television schedule of the programs currently airing in the US. When the user selects a show, a detail screen should open that displays the shows' metadata.
 
-Currently, two official plugins are available:
+Although the focus will be more on your coding structure, please feel free to design the user interface to be as contemporary as you would like.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You should be able to explain the design decisions you made and what other options you considered before going with the final implementation.
 
-## React Compiler
+Solution: 
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Created using vite + react using VS code as an IDE. 
 
-## Expanding the ESLint configuration
+1. Landing page upon running project in 5173
+<img width="1812" height="1004" alt="image" src="https://github.com/user-attachments/assets/f3737548-fdeb-4ecf-879a-61771f44ee46" />
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
