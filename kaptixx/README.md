@@ -1,4 +1,3 @@
-<img width="1812" height="1004" alt="image" src="https://github.com/user-attachments/assets/3b7248a9-b49e-4aa4-81df-6daa5bbd376c" />
 Problem statement:
 
 We would like you to design a web application that uses the TVmaze API (http://www.tvmaze.com/api) to display a television schedule of the programs currently airing in the US. When the user selects a show, a detail screen should open that displays the shows' metadata.
